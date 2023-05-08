@@ -1,0 +1,34 @@
+@media (max-width: 430px){
+    h1{
+        font-size: 27px;
+    }
+
+    .retangulo{
+        height: 170px;
+    }
+
+    h3{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    .button button{
+        width: 130px;
+        font-size: 18px;
+    }
+
+    .pepino{
+        height: 340px;
+         width: 348px;
+         align-items: center;
+        }
+
+    }

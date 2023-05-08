@@ -1,0 +1,19 @@
+:root {
+    --cor-rodape: #98D397;
+    --verde-claro: #D4EED3;
+    --cinza-claro: #e3e3e3d2;
+    --verde-escuro: #40AD3E;
+    --verde-mensagem: #D4EED3;
+    --cinza-mensagem: #FFFAFA78;
+    --azul-escuro: #2D486D;
+}
+
+#equipe img{
+width: 100%;
+margin-bottom: 40px;
+}
+
+button{
+    margin-top:20px ;
+    margin-bottom: 20px;
+}

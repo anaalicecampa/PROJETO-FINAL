@@ -1,0 +1,29 @@
+#cabecalho {
+    background-color: white;
+    padding: 20px;
+
+}
+
+#cabecalho figure {
+    display: block;
+    text-align: center;
+
+}
+
+#cabecalho figure img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+#cabecalho nav a {
+    text-decoration: none;
+    color: black;    
+    font-family: Abel;
+    font-size: 15px;
+}
+
+#cabecalho nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}

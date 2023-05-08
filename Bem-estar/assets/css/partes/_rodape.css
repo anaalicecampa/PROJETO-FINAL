@@ -1,0 +1,66 @@
+:root{
+    --cor-rodape: #98D397;
+    --verde-claro: #D4EED3;
+    --cinza-claro: #969996;
+    --verde-escuro: #40AD3E;
+    --verde-mensagem:#D4EED3;
+    --cinza-mensagem: #FFFAFA78;
+    --azul-escuro: #2D486D;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s;
+}
+
+#borda{
+    background-color: var(--cor-rodape);
+}
+
+#rodape h5{
+    padding-bottom: 7px;
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+    text-align: center;
+
+}
+
+#rodape p{
+    font-size: 13px;
+    font-family: 'Livvic', sans-serif;
+    text-align: center;
+    align-items: center;
+
+}
+
+.grid {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+
+}
+
+#apps img{
+    width: 22px;
+    height: auto;
+    margin: 0 4px;
+}
+
+.rede{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+@media (max-width: 430px){
+    .facebook img, .instagram img, .whatsapp img {
+    width: 20px;
+}
+}
